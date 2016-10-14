@@ -1,0 +1,77 @@
+h1 {
+	color : purple;
+	padding : 10 px;
+	margin : 10px;
+	border : 100 px solid green;
+	/*background-color: rgb(200, 200, 200)*/
+}
+
+body {
+	text-align: center;
+}
+
+div.header_bar {
+	color : purple;
+	border : 10 px solid green;
+	padding : 10 px;
+	margin : 10px;
+	background-color: rgb(200, 200, 200);
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}
+
+a{
+	text-decoration : none; 
+}
+
+ /* unvisited link */
+div.header_bar a:link {
+    color : purple;
+	font-size : 100%;
+}
+
+/* visited link */
+div.header_bar a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+div.header_bar a:hover {
+    color: white;
+}
+
+/* selected link */
+div.header_bar a:active {
+    color: blue;
+}
+
+.buttons a{
+	width: 400 px;
+	height: 200 px;
+	color: purple;
+	font-size: 300%;
+	background-color: purple;
+	
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+
+
+
+
+
+
+
+
+
+
