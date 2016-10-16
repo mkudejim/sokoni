@@ -34,10 +34,6 @@ body {
 
 
 
-a{
-	text-decoration : none; 
-}
-
  /* unvisited link */
 a:link {
     color : purple;
@@ -47,6 +43,7 @@ a:link {
 /* visited link */
 a:visited {
     color: purple;
+	text-decoration : none;
 }
 
 /* mouse over link */
@@ -58,8 +55,21 @@ a:hover {
 /* selected link */
 a:active {
     color: white;
+	text-decoration : none;
 }
 
+
+.pics{
+	margin: 100px;
+}
+
+.img_row{
+	margin-bottom: 50px;
+}
+
+.buttons{
+	padding: 100px;
+}
 .buttons a{
 	width: auto;
 	height: auto;

@@ -14,7 +14,7 @@
 				<p>SOKONI</p>
 			</div>
 			<div class="col-md-1">
-					<a href="index.php">Home</a>
+				<a href="index.php">Home</a>
 			</div>
 
 			<div class="col-md-1">
@@ -58,26 +58,96 @@
 		</div>
 
 		<div class="col-md-8">
-			<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-			</p>
-			<div class = "buttons">
-				<p>
-					<a href="login.php">Login</a>
-				</p>
 
-				<p>
-					<a href="signup.php">Sign up</a>
-				</p>
+			<div class="pics">
+
+				<div class="row img_row">
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/iphone7.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+				</div>
+
+				<div class="row img_row">
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/iphone7.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/iphone7.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+				</div>
+
+				<div class="row img_row">
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/iphone7.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+
+					<div class="col-md-4">
+						<p>Image here.</p>
+						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					</div>
+				</div>
+
+				<div class = "buttons">
+					<div class="row">
+						<div class="col-md-6">
+							<p> <a href="login.php">Login</a> </p>
+						</div>
+
+						<div class="col-md-6">
+							<p> <a href="signup.php">Sign up</a> </p>
+						</div>
+					</div>
+
+				</div>
+
 			</div>
+
 		</div>
 
 		<div class="col-md-2 side">
 		</div>
 	</div>
 
+
 	<script>
 		setDivHeightToWndwSize("cont");
 	</script>
+
+
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">© 2016 Sokoni By Jimmy Mkude and Arnold Mutayoba
+				<a href="http://mkude.com" target="_blank" >mkude.com</a>
+			</p>
+
+			<a href="about.php" class="navbar-text pull-right"> About Us </a>
+		</div>
+
 
 
 

@@ -6,7 +6,7 @@
 
 
 function setDivHeightToWndwSize(id){
-    var height = (window.innerHeight).toString() + "px";
+    var height = (window.outerHeight).toString() + "px";
     var h = document.getElementById(id);
     h.style.height = height;
 }
