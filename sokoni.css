@@ -1,60 +1,72 @@
-h1 {
-	color : purple;
-	padding : 10 px;
-	margin : 10px;
-	border : 100 px solid green;
-	/*background-color: rgb(200, 200, 200)*/
+.top {
+	color : gold;
+	padding : 0;
+	background-color: rgb(200, 200, 200);
+	text-align: center;
+	font-size: 150%;
 }
+
+#top_side{
+	background-color: #555;
+	color: white;
+}
+
+
+.side {
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+.bar{
+	text-align: right;
+}
+
+
 
 body {
 	text-align: center;
+	background-color: rgb(200, 200, 200);
 }
 
-div.header_bar {
-	color : purple;
-	border : 10 px solid green;
-	padding : 10 px;
-	margin : 10px;
-	background-color: rgb(200, 200, 200);
-	text-align: center;
-	overflow: hidden;
-	white-space: nowrap;
-	
+.body{
+	/**background-color: purple; **/
 }
+
+
 
 a{
 	text-decoration : none; 
 }
 
  /* unvisited link */
-div.header_bar a:link {
+a:link {
     color : purple;
 	font-size : 100%;
 }
 
 /* visited link */
-div.header_bar a:visited {
-    color: blue;
+a:visited {
+    color: purple;
 }
 
 /* mouse over link */
-div.header_bar a:hover {
-    color: white;
+a:hover {
+    color: gold;
+	text-decoration: none;
 }
 
 /* selected link */
-div.header_bar a:active {
-    color: blue;
+a:active {
+    color: white;
 }
 
 .buttons a{
-	width: 400 px;
-	height: 200 px;
-	color: purple;
+	width: auto;
+	height: auto;
 	font-size: 300%;
 	background-color: purple;
 	
-    border: none;
+    border-radius: 25px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -64,6 +76,24 @@ div.header_bar a:active {
     margin: 4px 2px;
     cursor: pointer;
 	
+}
+
+.buttons a:hover{
+	text-decoration: none;
+	color: white;
+	background-color: gold;
+}
+
+.buttons a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
 }
 
 
