@@ -37,6 +37,7 @@
 				<a href="about.php"> About </a>
 			</div>
 
+
 			<div class="col-md-4">
 				<div class="bar">
 					<form class="form-inline">
@@ -52,7 +53,7 @@
 		</div>
 
 	</div>
-
+	<a href="game.php">Play tic tac toe</a>
 	<div class="row contents" id="cont">
 		<div class="col-md-2 side">
 		</div>

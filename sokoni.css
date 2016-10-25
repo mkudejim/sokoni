@@ -4,11 +4,13 @@
 	background-color: rgb(200, 200, 200);
 	text-align: center;
 	font-size: 150%;
+	#height: 100px;
 }
 
 #top_side{
 	background-color: #555;
 	color: white;
+
 }
 
 
@@ -106,8 +108,32 @@ footer {
 	padding: 15px;
 }
 
+/**** Format for the Tic Tac Toe Game specific contents ******/
+div.game_area{
+	padding: 100px;
+	margin: 10px;
+	background-color: greenyellow;
+	height: 700px;
+	text-align: center;
+}
 
+div.game_area button{
+	color: darkgreen;
+	background-color:  white;
+	padding: 32px 16px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	width: 150px;
+	height: 130px;
+	border: 1px solid darkgreen;
 
+	/*margin: 10px 10px 10px 10px;*/
+}
+
+div.game_area button:hover {
+	background-color: rgb(200, 200, 200);
+}
 
 
 
