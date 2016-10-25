@@ -18,23 +18,23 @@
 			</div>
 
 			<div class="col-md-1">
-				<a href="profile.php">Profile</a>
+				<a href="">Profile</a>
 			</div>
 
 			<div class="col-md-1">
-				<a href="orders.php"> Buy </a>
+				<a href=""> Buy </a>
 			</div>
 
 			<div class="col-md-1">
-				<a href="login.php">Sell</a>
+				<a href="">Sell</a>
 			</div>
 
 			<div class="col-md-1">
-				<a href="careers.php">Careers</a>
+				<a href="">Careers</a>
 			</div>
 
 			<div class="col-md-1">
-				<a href="about.php"> About </a>
+				<a href=""> About </a>
 			</div>
 
 
@@ -53,7 +53,7 @@
 		</div>
 
 	</div>
-	<a href="game.php">Play tic tac toe</a>
+
 	<div class="row contents" id="cont">
 		<div class="col-md-2 side">
 		</div>
@@ -63,20 +63,12 @@
 			<div class="pics">
 
 				<div class="row img_row">
-					<div class="col-md-4">
-						<p>Image here.</p>
-						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
+					<div class="col-md-12">
+						<p> <a href="game.php" style="font-size: 32px; text-decoration: none; padding: 10px; background-color: gold; border-radius: 15px;">
+							Play tic tac toe
+						</a> </p>
 					</div>
 
-					<div class="col-md-4">
-						<p>Image here.</p>
-						<img src="images/iphone7.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
-					</div>
-
-					<div class="col-md-4">
-						<p>Image here.</p>
-						<img src="images/ps5.jpg" class="img-rounded" alt="PS5.jpg" width="304" height="236">
-					</div>
 				</div>
 
 				<div class="row img_row">
@@ -116,11 +108,11 @@
 				<div class = "buttons">
 					<div class="row">
 						<div class="col-md-6">
-							<p> <a href="login.php">Login</a> </p>
+							<p> <a href="">Login</a> </p>
 						</div>
 
 						<div class="col-md-6">
-							<p> <a href="signup.php">Sign up</a> </p>
+							<p> <a href="">Sign up</a> </p>
 						</div>
 					</div>
 
@@ -146,7 +138,7 @@
 				<a href="http://mkude.com" target="_blank" >mkude.com</a>
 			</p>
 
-			<a href="about.php" class="navbar-text pull-right"> About Us </a>
+			<a href="" class="navbar-text pull-right"> About Us </a>
 		</div>
 
 

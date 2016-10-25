@@ -34,12 +34,15 @@ body {
 	/**background-color: purple; **/
 }
 
-
+a{
+	text-decoration: none;
+}
 
  /* unvisited link */
 a:link {
     color : purple;
 	font-size : 100%;
+	text-decoration: none;
 }
 
 /* visited link */
@@ -51,6 +54,16 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: gold;
+	text-decoration: none;
+}
+
+.col-md-1 a:hover{
+	color: gold;
+	text-decoration: none;
+}
+
+.col-md-12 a:hover{
+	color: white;
 	text-decoration: none;
 }
 
